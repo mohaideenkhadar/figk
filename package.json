@@ -1,16 +1,24 @@
 {
   "name": "fig",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is sample file to include figma design in storybook.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohaideenkhadar/fig.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohaideenkhadar/fig/issues"
+  },
+  "homepage": "https://github.com/mohaideenkhadar/fig#readme",
   "devDependencies": {
     "@chromatic-com/storybook": "^3.2.4",
     "@storybook/addon-essentials": "^8.5.6",
